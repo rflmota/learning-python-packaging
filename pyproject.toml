@@ -1,0 +1,10 @@
+[buid-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pySnakeSay"
+version = "1.0.0"
+
+[project.scripts]
+snakey = "pySnakeSay:__main__.main"
